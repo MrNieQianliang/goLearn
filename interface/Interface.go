@@ -35,7 +35,15 @@ func main() {
 	var phone Phone
 	phone = new(NokiaPhone)
 	phone.call()
+	phone.say()
+
+	fmt.Println(&phone)
 
 	phone = new(IPhone)
 	phone.call()
+	phone.say()
+	fmt.Println(&phone)
 }
+
+//Go语言使用接口的方式
+//接口相当于规定公共方法，实现方法需要实现每一个抽象的方法

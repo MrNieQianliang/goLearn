@@ -8,8 +8,10 @@ import (
 
 func main() {
 
+	fmt.Println(len(os.Args))
+
 	if len(os.Args) != 2{
-		fmt.Fprintf(os.Stderr,"Useage:%s ip-addr:",os.Args[0])
+		fmt.Fprintf(os.Stderr,"%s",os.Args[0])
 		os.Exit(1)
 	}
 

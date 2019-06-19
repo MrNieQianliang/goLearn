@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0c8806-88f5-4932-ac14-8937bffc061d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chan/chan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defer/defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explainGo/main/main_go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explainGo/self/self_go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello/hellomain.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jicheng/jicheng.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/switch/switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/for.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/map/Map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struct/goStruct.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct/goStruct.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +42,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="Go" value="40" />
+          <entry key="Go" value="41" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
@@ -58,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="5388" />
+          <entry key="Go" value="5496" />
           <entry key="Markdown" value="26" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
@@ -133,11 +125,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defer/defer.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/for/for.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -200,6 +201,7 @@
         <option value="$PROJECT_DIR$/struct/goStruct.go" />
         <option value="$PROJECT_DIR$/map/Map.go" />
         <option value="$PROJECT_DIR$/defer/defer.go" />
+        <option value="$PROJECT_DIR$/for/for.go" />
       </list>
     </option>
   </component>
@@ -301,7 +303,7 @@
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560926206919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560930782460" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -340,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build defer.go">
+  <component name="RunManager" selected="Go Build.go build for.go">
     <configuration name="go build Map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -357,19 +359,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build chan.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chan/chan.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/defer/defer.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/for/for.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -382,19 +384,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build chan.go" />
       <item itemvalue="Go Build.go build Map.go" />
       <item itemvalue="Go Build.go build goStruct.go" />
       <item itemvalue="Go Build.go build Slice.go" />
       <item itemvalue="Go Build.go build defer.go" />
+      <item itemvalue="Go Build.go build for.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build for.go" />
         <item itemvalue="Go Build.go build defer.go" />
         <item itemvalue="Go Build.go build Slice.go" />
         <item itemvalue="Go Build.go build Map.go" />
         <item itemvalue="Go Build.go build goStruct.go" />
-        <item itemvalue="Go Build.go build chan.go" />
       </list>
     </recent_temporary>
   </component>
@@ -417,12 +419,12 @@
       <workItem from="1560425915332" duration="1820000" />
       <workItem from="1560481089898" duration="833000" />
       <workItem from="1560821958518" duration="3453000" />
-      <workItem from="1560909848549" duration="4031000" />
+      <workItem from="1560909848549" duration="5107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31128000" />
+    <option name="totallyTimeSpent" value="32204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -639,6 +641,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for/for.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

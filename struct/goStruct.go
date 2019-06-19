@@ -20,4 +20,6 @@ func main() {
 	fmt.Println(book1)
 
 	fmt.Println(Book{1,"go1","12345","go yuyan"})
+
+	fmt.Print(Book{id:90,qrcode:"321654",title:"go 语言"})
 }
